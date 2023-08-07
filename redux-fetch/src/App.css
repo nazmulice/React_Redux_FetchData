@@ -1,18 +1,19 @@
 section {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 0.7rem;
-  padding: 1rem;
+  grid-gap: 0.9rem;
+  padding: 1.5rem;
 }
 article {
   background-color: #058787;
   color: white;
   padding: 0.3rem;
 }
-h1{
-    text-align: center;
-    color: rgb(4, 138, 82);
-    font-weight: 600;
+
+h1 {
+  text-align: center;
+  color: rgb(4, 138, 82);
+  font-weight: 600;
 }
 
 @media (min-width: 350px) {
